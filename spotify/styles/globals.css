@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .player-button {
+    @apply h-5 w-5 text-gray-500 hover:text-white cursor-pointer;
+  }
+
+  .play-pause-btn {
+    @apply h-10 w-10 cursor-pointer hover:scale-125 transition transform duration-100 ease-out;
+  }
+
+  .menu-btn {
+    @apply h-12 rounded-sm pl-3 hover:bg-gray-800 flex items-center;
+  }
+}
